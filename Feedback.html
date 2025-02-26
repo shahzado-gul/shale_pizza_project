@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>www.SHALE PIZZAzzz</title>
+	<script>
+		// Function to trigger the image download
+		function downloadMenuImage() {
+			// Replace with the path to your image or file
+			var link = document.createElement('a');
+			link.href = 'shale pizza.png'; // Change this path to your image URL
+			link.download = 'shale pizza.png'; // The name the file will have when downloaded
+			document.body.appendChild(link);
+			link.click();
+			document.body.removeChild(link);
+		}
+	</script>
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<style>
+		body {
+			background-image: url(./Images/body\ background.png.jpg);
+		}
+
+		.feedback-section {
+			background-image: url(./Images/body\ background.png.jpg);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 150vh;
+			background-color: #121212;
+			margin: 0;
+			color: beige;
+			font-family: Arial, sans-serif;
+
+		}
+
+		.logo-1 {
+			border-radius: 50%;
+			height: 110px;
+			animation: zoomIn 1s ease-in-out;
+			transition: 3s;
+			transition: 2s;
+
+			animation: zoom 2s infinite;
+
+		}
+
+		@keyframes zoom {
+			0% {
+				transform: scale(1);
+			}
+
+			50% {
+				transform: scale(1.2);
+			}
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+
+
+
+		.pizza-1 {
+			animation: zoom 2s infinite;
+
+		}
+
+		@keyframes zoom {
+			0% {
+				transform: scale(1);
+			}
+
+			50% {
+				transform: scale(1.1);
+			}
+
+			100% {
+				transform: scale(1);
+			}
+		}
+
+
+
+
+
+		.logo-1:hover {
+			transform: scale(1.2);
+			filter: drop-shadow(0 0 10px #ff5733);
+			transform: translateX(20px);
+			transform: translateX(20px);
+		}
+
+		.dropdown-item {
+			color: black;
+
+			transition: .4s;
+		}
+
+		.dropdown-item:hover {
+			background-color: rgb(233, 67, 67);
+		}
+
+
+		.feedback-container {
+			border: 4px solid beige;
+			background: transparent;
+			padding: 30px;
+			width: 500px;
+			text-align: left;
+
+		}
+
+		.feedback-container label {
+			display: block;
+			font-weight: bold;
+			margin-top: 15px;
+		}
+
+		.feedback-container input,
+		.feedback-container select,
+		.feedback-container textarea {
+			width: 100%;
+			padding: 10px 0;
+			margin: 5px 0;
+			border: none;
+			border-bottom: 2px solid beige;
+			background: transparent;
+			font-size: 16px;
+			color: #fac567;
+			outline: none;
+		}
+
+		.feedback-container select {
+			background-color: transparent;
+		}
+
+		.stars {
+			display: flex;
+			justify-content: center;
+			margin-top: 10px;
+		}
+
+		.stars span {
+			font-size: 25px;
+			cursor: pointer;
+			color: lightgray;
+		}
+
+		.stars span:hover,
+		.stars span.active {
+			color: gold;
+		}
+
+		.feedback-container button {
+			background: #f4a700;
+			color: black;
+			padding: 12px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			width: 100%;
+			font-size: 16px;
+			margin-top: 15px;
+		}
+
+		.feedback-h2 {
+			color: #fac567;
+		}
+
+		#feedback-food-quality {
+			background-color: #121212;
+		}
+
+		#feedback-service-quality {
+			background-color: #121212;
+		}
+	</style>
+</head>
+
+<body>
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img class="logo-1" id="logo-1" src="./Images/logo.png.png" alt="logo-1">
+
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+
+
+					<!-- Menu Dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownmenuLink" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+
+							Menu
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="./pizza.html">Pizza</a></li>
+							<li><a class="dropdown-item" href="./Garlic bread.html">Garlic Breads</a></li>
+							<li><a class="dropdown-item" href="./sandwich.html">Pizza Sandwiches</a></li>
+							<li><a class="dropdown-item" href="./desserts.html">Desserts</a></li>
+							<li><a class="dropdown-item" href="./Beverages.html">Beverages</a></li>
+
+
+						</ul>
+					</li>
+
+
+					<!-- 50% Offers Dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOffersLink" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							50% Off
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownOffersLink">
+							<li><a class="dropdown-item" href="./Weekend.html">Weekend Special</a></li>
+							<li><a class="dropdown-item" href="#">Combo Offers</a></li>
+						</ul>
+					</li>
+
+					<!-- Store Location Dropdown -->
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownLocationLink" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Store Location
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownLocationLink">
+							<li><a class="dropdown-item" href="./location.html">Location</a></li>
+							<li><a class="dropdown-item" href="#">Franchise Info</a></li>
+						</ul>
+					</li>
+					<!-- Gallery -->
+					<li class="nav-item">
+						<a class="nav-link" href="./gallery.html">Gallery</a>
+					</li>
+
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+					<li class="nav-item"><a href="./Feedback.html" class="nav-link">Feedback</a></li>
+					<li class="nav-item" id="downloadMenu"><a class="nav-link" href="#"
+							onclick="downloadMenuImage()">Menu
+							Download</a></li>
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+
+
+	<section class="home-slider owl-carousel img" style="background-image: url(./Images/slider3\ bacground.png.jpg);">
+
+		<div class="slider-item" style="background-image: url(./Images/slider3\ bacground.png.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row slider-text justify-content-center align-items-center">
+
+					<div class="col-md-7 col-sm-12 text-center ftco-animate">
+						<h1 class="pizza-1  mb-3 mt-5 bread  ">Our Feedback</h1>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="feedback-section">
+		<div class="feedback-container">
+			<form id="feedback-form">
+				<h2 class="feedback-h2">Shale Pizza</h2>
+				<label for="feedback-name">Your Name</label>
+				<input type="text" id="feedback-name" required>
+
+				<label for="feedback-email">Your Email</label>
+				<input type="email" id="feedback-email" required>
+
+				<label for="feedback-service-quality">Food Quality</label>
+				<select id="feedback-food-quality" required>
+					<option value=""></option>
+					<option>Excellent</option>
+					<option>Good</option>
+					<option>Average</option>
+					<option>Poor</option>
+				</select>
+
+				<label for="feedback-service-quality">Service Quality</label>
+				<select id="feedback-service-quality" required>
+					<option value=""></option>
+					<option>Excellent</option>
+					<option>Good</option>
+					<option>Average</option>
+					<option>Poor</option>
+				</select>
+
+				<label for="feedback-message">Message</label>
+				<textarea id="feedback-message" required></textarea>
+
+				<label>Rate Us</label>
+				<div class="stars">
+					<span data-value="1">★</span>
+					<span data-value="2">★</span>
+					<span data-value="3">★</span>
+					<span data-value="4">★</span>
+					<span data-value="5">★</span>
+				</div>
+
+				<button type="submit">Send Message</button>
+			</form>
+		</div>
+	</section>
+
+
+	<footer class="ftco-footer ftco-section img">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">About Us</h2>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+							there live the blind texts.</p>
+						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Recent Blog</h2>
+						<div class="block-21 mb-4 d-flex">
+							<a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+							<div class="text">
+								<h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a>
+								</h3>
+								<div class="meta">
+									<div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+									<div><a href="#"><span class="icon-person"></span> Admin</a></div>
+									<div><a href="#"><span class="icon-chat"></span> 19</a></div>
+								</div>
+							</div>
+						</div>
+						<div class="block-21 mb-4 d-flex">
+							<a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+							<div class="text">
+								<h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a>
+								</h3>
+								<div class="meta">
+									<div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
+									<div><a href="#"><span class="icon-person"></span> Admin</a></div>
+									<div><a href="#"><span class="icon-chat"></span> 19</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Services</h2>
+						<ul class="list-unstyled">
+							<li><a href="#" class="py-2 d-block">Cooked</a></li>
+							<li><a href="#" class="py-2 d-block">Deliver</a></li>
+							<li><a href="#" class="py-2 d-block">Quality Foods</a></li>
+							<li><a href="#" class="py-2 d-block">Mixed</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain
+										View, San Francisco, California, USA</span></li>
+								<li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
+											210</span></a></li>
+								<li><a href="#"><span class="icon icon-envelope"></span><span
+											class="text">info@yourdomain.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+						is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+							target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		document.getElementById('feedback-form').addEventListener('submit', function (event) {
+			if (!this.checkValidity()) {
+				return; // If required fields are empty, browser will show default validation alert
+			}
+			event.preventDefault();
+			alert('✅ Message Sent Successfully!');
+			this.reset();
+		});
+
+		// Star rating functionality
+		const stars = document.querySelectorAll('.stars span');
+		stars.forEach(star => {
+			star.addEventListener('click', function () {
+				stars.forEach(s => s.classList.remove('active'));
+				this.classList.add('active');
+				let prev = this.previousElementSibling;
+				while (prev) {
+					prev.classList.add('active');
+					prev = prev.previousElementSibling;
+				}
+			});
+		});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="./js/swiper-bundle.min.js"></script>
+	<script
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+	<script src="js/google-map.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
